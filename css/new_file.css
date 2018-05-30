@@ -1,25 +1,31 @@
-@font-face {
-	font-family:jianzhi;
-	src: url(font/FZJZJW.TTF);
-}
-h2{
-	font-family: jianzhi;
+ *{ margin: 0px; 
+ padding: 0px;
+  box-sizing: border-box; 
+  }
+form{ 
+	width: 300px; 
+    height: 250px; 
+ background-color: red;
+ position: absolute;
+ left: 0px;
+ right:0px;
+ top: 0px;
+ bottom: 0px;
+ margin: auto;
+  padding-top: 20px; 
+  text-align: center;
+  }
+  form div{
+  	margin: 15px 0px;
+  }
+  form input[type="submit"]{
+  	text-align: center;
+  	width: 70px;
+  }
+form input[type="reset"]{
 	text-align: center;
-	font-size: 36px;
-	color: #666;
-	letter-spacing: 10px;
+	width: 70px;
 }
-h2 span,.authorspan{color: #076BBC;}
-.author{
-	text-align: center;
-	color: #666;
-	font-family: "楷体";
-}
-p{font-family: "微软雅黑";}
-span{color: #f00;}
-.phone{
-	font-family: 楷体;
-	font-style: italic;
-	color: #666;
-	font-size: #ddd;
-}
+form input[type="image"]{
+	width: 70px;
+	height: 60px;
